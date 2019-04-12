@@ -1,6 +1,6 @@
 import React from 'react';
-import { View, Text } from 'react-native'
-import Padron from '../estilo/Padron'
+import { View, Text } from 'react-native';
+import Padron from '../estilo/Padron';
 
 function paroimpar(num){
     // if ( num % 2 == 0) {

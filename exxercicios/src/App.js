@@ -3,6 +3,7 @@
  
  import Simples from './components/Simples';
  import Parimpar from './components/Parimpar';
+ import { Inverter, MegaSena } from './components/Multi';
 
  export default class App extends Component {
       render() {
@@ -10,6 +11,9 @@
           <View style={styles.container}>
             <Simples texto='Giovanni Insfran'/> 
             <Parimpar numero={30} /> 
+            <Inverter texto='React Nativo !'/>
+            <MegaSena numeros={6}/>
+
           </View>
         )
       };
